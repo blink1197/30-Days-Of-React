@@ -1291,14 +1291,14 @@ isRaining
    You are left with 3 years to drive.
    ```
 
-1. Compare the values of myAge and yourAge using if … else. Based on the comparison and log the result to console stating who is older (me or you). Use prompt(“Enter your age:”) to get the age as input.
+2. Compare the values of myAge and yourAge using if … else. Based on the comparison and log the result to console stating who is older (me or you). Use prompt(“Enter your age:”) to get the age as input.
 
    ```sh
    Enter your age: 30
    You are 5 years older than me.
    ```
 
-1. If a is greater than b return 'a is greater than b' else 'a is less than b'. Try to implement it in two ways
+3. If a is greater than b return 'a is greater than b' else 'a is less than b'. Try to implement it in two ways
 
    - using if else
    - ternary operator.
@@ -1312,7 +1312,7 @@ isRaining
      4 is greater than 3
    ```
 
-1. Even numbers are divisible by 2 and the remainder is zero. How do you check, if a number is even or not using JavaScript?
+4. Even numbers are divisible by 2 and the remainder is zero. How do you check, if a number is even or not using JavaScript?
 
    ```sh
    Enter a number: 2
