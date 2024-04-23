@@ -1595,7 +1595,7 @@ for (let i = 0; i <= 5; i++) {
 #### Conclusions
 
 - Regular for loop can be used anywhere when the number of iteration is known.
-- While loop when the number of iteration is not know
+- While loop when the number of iteration is not known.
 - Do while loop and while loop are almost the same but do while loop run at least once even when the condition is false
 - for of is used only for array
 - forEach is used for array
@@ -1724,7 +1724,7 @@ for (let i = 0; i < 3; i++) {
 // console.log(i), Uncaught ReferenceError: gravity is not defined
 ```
 
-The scope _let_ and _const_ is the same. The difference is only reassigning. We can not change or reassign the value of const variable. I would strongly suggest you to use _let_ and _const_, by using _let_ and _const_ you will writ clean code and avoid hard to debug mistakes. As a rule of thumb, you can use _let_ for any value which change, _const_ for any constant value, and for array, object, arrow function and function expression.
+The scope _let_ and _const_ is the same. The difference is only reassigning. We can not change or reassign the value of const variable. I would strongly suggest you to use _let_ and _const_, by using _let_ and _const_ you will write clean code and avoid hard to debug mistakes. As a rule of thumb, you can use _let_ for any value which change, _const_ for any constant value, and for array, object, arrow function and function expression.
 
 ### 7. Object
 
@@ -1981,10 +1981,10 @@ console.log(copyPerson.hasOwnProperty("score"));
 ##### Exercises: Level 1
 
 1. Create an empty object called dog
-1. Print the the dog object on the console
-1. Add name, legs, color, age and bark properties for the dog object. The bark property is a method which return _woof woof_
-1. Get name, legs, color, age and bark value from the dog object
-1. Set new properties the dog object: breed, getDogInfo
+2. Print the the dog object on the console
+3. Add name, legs, color, age and bark properties for the dog object. The bark property is a method which return _woof woof_
+4. Get name, legs, color, age and bark value from the dog object
+5. Set new properties the dog object: breed, getDogInfo
 
 ##### Exercises: Level 2
 
